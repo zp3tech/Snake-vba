@@ -5,7 +5,7 @@ Recreating the classic retro game of snake on an Excel spreadsheet using nothing
 
 ### Manually setup board and controller
 1. Create a macro-enabled Excel spreadsheet
-1. Set width of columns A - AA to 2.57 (23 pixels)
+1. Set width of columns A through AA to 2.57 (23 pixels)
 1. Type "x" in cells A1:A27,B1:AA1,B27:AA27,AA2:AA26 to create the edges for the game board (Sub **BoardSetup()** will turn background black).
 1. Type "UP" in cell I30, "RIGHT" in cell J31, "DOWN" in cell I32, and "LEFT" in cell H31
 1. Then copy all the SnakeSubs.bas code from this repo into your Modules folder.
